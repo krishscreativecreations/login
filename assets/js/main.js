@@ -26,3 +26,15 @@ const showHiddenPass = (inputPass, inputIcon) =>{
 }
 
 showHiddenPass('input-pass','input-icon')
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAoHWrXDD_hPUuAqWj9pPDKVJssGkKSmZc",
+    authDomain: "login-and-register-dd3d7.firebaseapp.com",
+    projectId: "login-and-register-dd3d7",
+    storageBucket: "login-and-register-dd3d7.appspot.com",
+    messagingSenderId: "105380364170",
+    appId: "1:105380364170:web:37d0d626d1a029da7a9273",
+    measurementId: "G-RRKCYLW5ZY"
+};
+const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
