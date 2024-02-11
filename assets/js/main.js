@@ -38,3 +38,8 @@ const firebaseConfig = {
 };
 const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+
+function register(){
+   email = document.getElementById('email').value
+   password = document.getElementById('password').value
+
